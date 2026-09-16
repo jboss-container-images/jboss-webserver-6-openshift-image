@@ -17,7 +17,7 @@
     },
     "labels": {
         "template": "jws62-openjdk21-tomcat10-ubi8-basic-s2i",
-        "jws62jdk21ubi8": "6.2.4"
+        "jws62jdk21ubi8": "6.2.5"
     },
     "message": "A new JWS application for Apache Tomcat 10 has been created in your project.",
     "parameters": [
@@ -183,7 +183,7 @@
                         "from": {
                             "kind": "ImageStreamTag",
                             "namespace": "${IMAGE_STREAM_NAMESPACE}",
-                            "name": "jboss-webserver62-openjdk21-tomcat10-openshift-ubi8:6.2.4"
+                            "name": "jboss-webserver62-openjdk21-tomcat10-openshift-ubi8:6.2.5"
                         }
                     }
                 },

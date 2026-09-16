@@ -2,8 +2,8 @@ schema_version: 1
 
 name: "jboss-webserver-6/jws62-openjdk17-rhel8-openshift"
 description: "Red Hat JBoss Web Server 6.2 - Tomcat 10 OpenShift container image with OpenJDK17 on UBI8"
-version: "6.2.4"
-from: "jboss-webserver-6-webserver62-openjdk17-tomcat10-rhel8:6.2.4"
+version: "6.2.5"
+from: "jboss-webserver-6-webserver62-openjdk17-tomcat10-rhel8:6.2.5"
 labels:
     - name: "com.redhat.component"
       value: "jboss-webserver-62-openjdk17-rhel8-openshift-container"
